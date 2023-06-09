@@ -1,0 +1,870 @@
+/*=================================================================================================================
+                                            Common Css Start
+===================================================================================================================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+ol,
+ul {
+    list-style: none;
+}
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+p,
+ul {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: 'Poppins',sans-serif;
+
+}
+
+/*=================================================================================================================
+                                            Common Css End
+===================================================================================================================*/
+/*=================================================================================================================
+                                            i am Start
+===================================================================================================================*/
+.section {
+
+    margin: 41px 0;
+}
+.section ul {
+    gap: 20px;
+
+}
+.section ul li {
+    gap: 50px !important;
+}
+
+.manu-button {
+
+    width: 150px;
+    height: 56px;
+    background: #007F5F;
+    border-radius: 17px;
+}
+.manu-button a {
+    position: absolute;
+    width: 88px;
+    height: 24px;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 16px;
+    color: #FFFFFF;
+}
+/*=================================================================================================================
+                                            i am End
+===================================================================================================================*/
+/*=================================================================================================================
+                                            i am Start
+===================================================================================================================*/
+.slider {
+    background: url("../img/Rectangle\ 40.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 885px;
+}
+
+.slider .content-text {  
+    position: absolute; 
+    margin-top: 200px;
+
+
+}
+.slider .content-text h1 { 
+    width: 573px;
+    height: 240px;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF; 
+
+}
+.slider .content-text .cont-text {
+    width: 597px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 16px; 
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin: 30px 0 40px 0 !important;
+}
+.slider.content-text .button {
+
+    width: 180px;
+    height: 56px;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 16px;
+    color: #FFFFFF;
+    margin: 20px 0 0 0 !important;
+}
+
+.slider .banner_search {
+    width: 825px;
+    margin-top: 40px;
+    padding: 24px;
+    background: #fff;
+    display: flex;
+    border-radius: 20px;
+}
+.slider .banner_search .search_item {
+    width: 160px;
+    margin-right: 70px;  
+    
+}
+.slider .banner_search .search_item p span {
+    font-size: 20px;
+    font-weight: 700px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #292929;
+    line-height: 26px;
+    padding: 0 10px 0 8px;
+}
+.slider .banner_search .search_item p .lac-icon {
+    color: rgba(34, 139, 34, 0.597); 
+}
+.slider .banner_search .search_item p .dow-icon {
+    color: #2a2929ac; 
+} 
+
+
+.slider .banner_search .search_item input {
+    border: none;
+    margin-left: 26px;
+
+}
+.slider .banner_search .search_icn  {
+    /* width: 82px;
+    height: 82px; */
+    padding: 24px;
+    background: #007F5F;
+}
+
+/*=================================================================================================================
+                                            i am End
+===================================================================================================================*/
+/*=================================================================================================================
+                                            Travel-bef Start
+===================================================================================================================*/
+.Travel-bef .Travel-text {
+    text-align: center;
+     margin: 154px 0 112px;
+}
+.Travel-bef .Travel-text h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 0.2px;
+    color: #1E1E1E;
+}
+.Travel-bef .Travel-text p {
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #616161;
+}
+
+.Travel-bef .Travel-Cheap {
+    padding: 0 14px 14px 0;
+}
+.Travel-bef .Travel-Cheap .Travel-cheap-group {
+    padding: 79px 77px 47px 44px;
+    background: #fff;
+    border-radius: 14px;
+}
+.Travel-bef .Travel-Cheap .Travel-cheap-group:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+}
+.Travel-bef .Travel-Cheap .Travel-cheap-group img {
+    width: 84px;
+    padding: 18px 20px;
+    background: rgba(0, 127, 95, 0.1);
+    border-radius: 14px;
+    margin: 0 0 44px 0 ;
+
+}
+.Travel-bef .Travel-Cheap .Travel-cheap-group h3 {
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #1E1E1E;
+    margin: 0 0 20px 0 !important;
+
+}
+.Travel-bef .Travel-Cheap .Travel-cheap-group p {
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #616161;
+    padding-top: 40px;
+}
+
+/*=================================================================================================================
+                                            Travel-bef End
+===================================================================================================================*/
+/*=================================================================================================================
+                                            popular dest Start
+===================================================================================================================*/
+
+.pop-des .pop-text {
+    text-align: center;
+     margin: 154px 0 112px;
+}
+.pop-des .pop-text h2 { 
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 0.2px;
+    color: #1E1E1E;
+}
+.pop-des .pop-text p { 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #616161;
+}
+.pop-des .dest-slider{
+    display: flex;
+    gap: 27; 
+}
+.pop-des .dest-slider .slick-item .des-item {
+    background: #FFFFFF;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+    width: 235px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.pop-des .dest-slider .slick-item .des-item img {
+    border-radius: 20px;
+    margin: 0 0 37px;
+}
+
+.pop-des .dest-slider .slick-item .des-item .fid-start {
+    margin: 0 0 17px;
+}
+.pop-des .dest-slider .slick-item .des-item .fid-start ul {
+    display: flex;
+
+}
+.pop-des .dest-slider .slick-item .des-item .fid-start ul .star {
+    color: #FF8B00;
+}
+.pop-des .dest-slider .slick-item .des-item .fid-start ul li p {
+    color: #FF8B00;
+}
+.pop-des .dest-slider .slick-item .des-item h3 {
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 24px;
+    color: #1E1E1E;
+}
+.pop-des .dest-slider .slick-item .des-item p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #616161;
+    margin-top: 20px;
+    padding: 20px;
+}
+.pop-des .dest-slider .slick-item .des-item .dest-price {
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #1E1E1E;
+
+}
+.pop-des .dest-slider .slick-item .des-item .manu-button {
+    margin: 30px 0 42px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding: 10px 36px;
+
+}
+
+/*=================================================================================================================
+                                             popular dest End
+===================================================================================================================*/
+/*=================================================================================================================
+                                            travel counter Start
+===================================================================================================================*/
+
+.travel-conuter {
+    padding: 148px 0 152px;
+    background: rgba(30, 30, 30, 0.05);
+}
+
+.travel-conuter .count-item {
+    font-family: 'Poppins';
+    font-style: normal;
+    width: 560px;
+}
+.travel-conuter .count-item h2 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 0.2px;
+    color: #1E1E1E;
+}
+.travel-conuter .count-item p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #616161;
+}
+.travel-conuter .count-item ul img {
+    position: absolute;
+}
+.travel-conuter .count-item ul li {
+    position: relative;
+    padding: 0 0 0 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #616161;
+    width: 400px;
+}
+.travel-conuter .count-item .Dis-button {
+    width: 200px;
+    background: #007F5F;
+    border-radius: 10px;
+    margin-top: 56px;
+    padding: 16px 35px;
+
+}
+.travel-conuter .count-item .Dis-button a {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
+
+
+.travel-conuter .counter-item .counter-button {
+    width: 270px;
+    background: #fff;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+.travel-conuter .counter-item .counter-button :hover {
+    background: #007F5F;
+    border-radius: 7px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.travel-conuter .counter-item .counter-button .counter-text {
+    padding: 62px 32px;
+}
+.travel-conuter .counter-item .counter-button .counter-text img {
+     width: 74px;
+     height: 78px;
+     padding: 20px;
+     border-radius: 14px;
+     background: rgba(0, 127, 95, 0.1);
+}
+.travel-conuter .counter-item .counter-button .counter-text img:hover {
+     width: 74px;
+     height: 78px;
+     padding: 20px;
+     border-radius: 14px;
+     background: #fff;
+}
+.travel-conuter .counter-item .counter-button .counter-text p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+
+}
+.travel-conuter .counter-item .counter-button .counter-text p span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+/*=================================================================================================================
+                                            travel counter End
+===================================================================================================================*/
+/*=================================================================================================================
+                                            Search deastination Start
+===================================================================================================================*/
+.Search-locatio {
+    padding: 150px 0 100px;
+}
+
+.Search-locatio .sea-item {}
+.Search-locatio .sea-item .sea-text {}
+.Search-locatio .sea-item .sea-text h2 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 0.2px;
+    color: #1E1E1E;
+    margin-bottom: 20px;
+
+}
+.Search-locatio .sea-item .sea-text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #616161;
+}
+.Search-locatio .sea-item .sea-text .sea-button {
+    width: 225px;
+    background: #007F5F;
+    border-radius: 10px;
+    margin-top: 56px;
+    padding: 16px 35px;
+
+}
+.Search-locatio .sea-item .sea-text a {
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+}
+.Search-locatio .sea-img {
+    }
+
+.Search-locatio .trv-img {
+    position: absolute;
+
+}
+
+.Search-locatio .text {
+    position: relative;
+    padding: 420px 0 0 40px;
+    width: 350px;
+}
+.Search-locatio .text ul li {
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #616161;
+    padding: 10px 29px 10px 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+}
+
+/*=================================================================================================================
+                                           Search deastination End
+===================================================================================================================*/
+/*=================================================================================================================
+                                            i am Start
+===================================================================================================================*/
+.promo {
+
+    padding: 150px 0 100px;
+}
+.promo .promo-text {
+
+    margin: 50px;
+}
+.promo .promo-text h3 {
+    width: 489px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #1E1E1E;
+}
+.promo .promo-text p {
+    width: 431px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #616161;
+    margin-top: 30px !important;
+}
+.promo .promo-text ul {
+    width: 467px;
+    margin-top: 20px !important;
+}
+.promo .promo-text ul li {
+    display: inline;
+    font-weight: 400;
+    display: flex;
+    font-size: 16px;
+    line-height: 30px;
+    color: #616161;
+}
+
+/*=================================================================================================================
+                                            i am End
+===================================================================================================================*/
+/*=================================================================================================================
+                                            i am Start
+===================================================================================================================*/
+.Money-back {
+    padding: 150px 0 100px;
+}
+
+.Money-back .money-item {}
+.Money-back .money-item .money-text {}
+.Money-back .money-item .money-text h2 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 0.2px;
+    color: #1E1E1E;
+    margin-bottom: 20px !important;
+
+}
+.Money-back .money-item .money-text p {
+    width: 516px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #616161;
+    /* just sometime space */
+    margin-bottom: 20px !important;
+}
+.accordion{
+    width: 420px;
+}
+.accordion .accordion-item .accordion-header .accordion-button{
+    border: none;
+}
+.accordion .accordion-item .accordion-header .dot{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; 
+    border: 1px solid black;
+    margin-right: 20px !important;
+}
+.accordion .accordion-item .accordion-header .dot:hover{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;  
+    background: #007F5F;
+    margin-right: 20px !important;
+}
+
+.accordion-item{
+    border: none;
+    background: #007f5f68 !important ;  
+    border-radius: 8px;
+}
+.accordion-body{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px; 
+    color: #616161;
+}
+
+.Money-back .money-img {
+    }
+
+.Money-back .money-img {
+    position: absolute;
+
+}
+.Money-back .text {
+    position: relative;
+    padding: 350px 0 0 40px;
+    width: 350px;
+}
+.Money-back .text ul li {}
+.Money-back .text ul li a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #616161;
+    background: #fff;
+    margin: 10px 0 0 0 !important;
+    padding: 10px 29px 10px 20px !important;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+}
+
+/*=================================================================================================================
+                                            i am End
+===================================================================================================================*/
+/*=================================================================================================================
+                                            i am Start
+===================================================================================================================*/
+.explor-top {
+    padding: 150px 0 10px;
+}
+.explor-top .explor-text h2 {
+    width: 481px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 0.2px;
+    color: #1E1E1E;
+    margin: 0 0 24px 0 !important;
+}
+.explor-top .explor-text p {
+    width: 485px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #616161;
+
+}
+.explor-top .explor-text a {
+    padding: 16px 35px !important;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #616161;
+    background: #F3F3F3 !important;
+    border: none !important;
+    border-radius: 20px !important;
+    margin: 30px 0 94px 0 !important;
+
+}
+.tur-sport {
+    padding: 0 0 100px;
+}
+.tur-sport .tur-item {
+
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+}
+.tur-sport .tur-item img {
+}
+.tur-sport .tur-item h5 {
+    padding: 20px 0 20px 0 !important;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #1E1E1E;
+}
+.tur-sport .tur-item p {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #616161;
+
+}
+.tur-sport .tur-item .icon {
+    padding: 0 20px 0 0;
+}
+/*=================================================================================================================
+                                            i am End
+===================================================================================================================*/
+/*=================================================================================================================
+                                            i am Start
+===================================================================================================================*/
+
+
+/*=================================================================================================================
+                                            i am End
+===================================================================================================================*/
+/*=================================================================================================================
+                                           Testimonial Start
+===================================================================================================================*/
+.Testimonial{ 
+    padding: 150px 0 100px;
+}
+
+.Testimonial .test-text h2{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 0.2px; 
+    color: #1E1E1E;
+    padding: 0 0 41px 0 !important;
+    
+}
+.Testimonial .test-text img{
+    width: 45px;
+    padding:0 0 20px 0 !important;
+}
+.Testimonial .test-text p{
+    width: 538px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px; 
+    color: #616161;
+        
+}
+.Testimonial .test-text h4{
+    
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px; 
+    color: #1E1E1E;
+    padding: 20px 0 !important;
+}
+/*=================================================================================================================
+                                            Testimonial End
+===================================================================================================================*/
+/*=================================================================================================================
+                                            Subciribe to  Start
+===================================================================================================================*/
+.subscribe{
+    background: url(../img/Group\ 100.png);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0 100px;
+}
+.subscribe .sub-text{  
+    color: #fff;  
+    text-align: center;
+}
+.subscribe .sub-text h2{ 
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.2px; 
+    color: #FFFFFF;
+
+}
+.subscribe .sub-text p{ 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;  
+    color: rgba(255, 255, 255, 0.7);
+}
+.subscribe .sub-text .email-sub input{
+    width: 770px;
+    padding: 35px 546px 35px 25px;
+    border-radius: 14px; 
+} 
+.subscribe .sub-text .email-sub .sub-button{ 
+    width: 159px;
+    height: 82px;
+    padding: 9px 11px 10px 0 !important;
+    /* margin: 7px -118px; */
+}
+/*=================================================================================================================
+                                            Subciribe to  End
+===================================================================================================================*/
+/*=================================================================================================================
+                                            i am Start
+===================================================================================================================*/
+.last-part{
+    
+    padding: 150px 0 100px;
+}
+.last-part   .fast-text .icon-logo{
+    padding: 0 0 40px 0; 
+}
+.last-part  .fast-text  ul{
+    display: flex ; 
+    gap: 40px;
+    padding: 40px 0 46px 0 !important;
+     
+} 
+
+.last-part   .fast-text p{
+    width: 344px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px; 
+    color: #616161;
+
+}
+
+
+.last-part   .fast-text   ul li a{}
+
+.last-part .Tour h3{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 38px; 
+    letter-spacing: 0.2px; 
+    color: #1E1E1E;
+}
+
+.last-part .Tour ul li a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 50px; 
+    color: #616161;
+} 
+.last-part .Support h3{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 38px; 
+    letter-spacing: 0.2px; 
+    color: #1E1E1E;
+}
+
+.last-part .Support ul li a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 50px; 
+    color: #616161;
+} 
+.last-part .Usefull-Pages h3{ 
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 38px; 
+    letter-spacing: 0.2px; 
+    color: #1E1E1E;
+}
+
+.last-part .Usefull-Pages ul li a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 50px; 
+    color: #616161;
+} 
+ 
+
+
+
+
+
+
+
+
+
+/*=================================================================================================================
+                                            i am End
+===================================================================================================================*/
+/*=================================================================================================================
+                                            i am Start
+===================================================================================================================*/
+
+/*=================================================================================================================
+                                            i am End
+===================================================================================================================*/
